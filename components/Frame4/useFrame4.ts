@@ -14,7 +14,8 @@ import useAlgo = form './useOtherHook';
 const useFrame4 = () => {
   
 
-//  let fns: any = {algo};
+  const chau = (param1: any): any => {};
+//  let fns: any = {algo, chau};
   const { data, fns} = useAlgo();
   return {data, fns};
 }
