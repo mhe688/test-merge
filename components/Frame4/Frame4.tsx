@@ -46,7 +46,7 @@ function Frame4(props: Frame4Props): JSX.Element {
   
     return (
     <Frame41  className={props.className}   >
-      {(fns.gg(!data.mou)) &&
+      {(fns.gg(!data.mo)) &&
         <Frame2   />
       }
     </Frame41>
