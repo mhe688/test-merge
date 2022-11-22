@@ -9,13 +9,9 @@
 *
 *
 **********************************************************************/
-
+import {data, fns} from './other-hook';
 const useFrame4 = () => {
   
-  let data: any = { };
-  const algo = (param1: any): any => {};
-
-  let fns: any = {algo};
   return {data, fns};
 }
 
