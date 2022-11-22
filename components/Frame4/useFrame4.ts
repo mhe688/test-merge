@@ -15,7 +15,6 @@ const useFrame4 = () => {
   
 
   const chau = (param1: any): any => {};
-//  let fns: any = {algo, chau};
   const { data, fns} = useAlgo();
   return {data, fns};
 }
