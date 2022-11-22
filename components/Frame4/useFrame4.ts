@@ -16,3 +16,4 @@ const useFrame4 = () => {
 }
 
 export default useFrame4;
+  const algo = (param1: any): any => {};
