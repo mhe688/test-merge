@@ -9,13 +9,13 @@
 *
 *
 **********************************************************************/
+import useAlgo = form './useOtherHook';
 
 const useFrame4 = () => {
   
-  let data: any = { };
-  const algo = (param1: any): any => {};
 
-  let fns: any = {algo};
+//  let fns: any = {algo};
+  const { data, fns} = useAlgo();
   return {data, fns};
 }
 
