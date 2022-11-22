@@ -12,11 +12,7 @@
 import useAlgo = form './useOtherHook';
 
 const useFrame4 = () => {
-  
-
-  const chau = (param1: any): any => {};
-  const { data, fns} = useAlgo();
-  return {data, fns};
+  return useAlgo();
 }
 
 export default useFrame4;
