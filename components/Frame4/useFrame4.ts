@@ -18,3 +18,4 @@ const useFrame4 = () => {
 export default useFrame4;
   const gg = (param1: any): any => {};
   const gg = (param1: any): any => {};
+  const gg = (param1: any): any => {};
